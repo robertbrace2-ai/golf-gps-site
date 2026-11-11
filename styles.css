@@ -322,3 +322,5 @@ p { margin: 0 0 1em; }
 .back-top { display: inline-block; margin-top: 18px; font-size: 0.9rem; }
 .step--text { grid-template-columns: 1fr; }
 .guide-note b { color: var(--white); }
+.step--wide { grid-template-columns: 1fr; }
+.step--wide img { max-width: 460px; }

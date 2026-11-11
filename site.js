@@ -5,7 +5,7 @@
    Put the text between the quote marks, then save.
    ========================================================= */
 
-var SUPPORT_EMAIL = "";   // e.g. "support@1stgolfgps.co.uk"
+var SUPPORT_EMAIL = "support@1stgolfgps.co.uk";
 var APP_STORE_URL = "";   // paste your App Store link here when the app goes live
 
 /* ---------- You don't need to edit anything below ---------- */

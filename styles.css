@@ -287,3 +287,38 @@ p { margin: 0 0 1em; }
 .site-footer a { color: var(--muted); }
 .site-footer a:hover { color: var(--green); }
 .credits { margin-top: 30px; padding-top: 20px; border-top: 1px solid var(--line); font-size: 0.82rem; display: flex; flex-wrap: wrap; gap: 6px 16px; justify-content: space-between; }
+
+/* ---------- How-to guide ---------- */
+.guide-contents { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+.guide-contents a {
+  text-decoration: none; color: var(--white); font-weight: 700; font-size: 0.93rem;
+  background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 8px 16px;
+}
+.guide-contents a span { color: var(--green); margin-right: 6px; }
+.guide-contents a:hover { border-color: var(--green); }
+.guide-note {
+  background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px 18px;
+  color: var(--muted); font-size: 0.93rem; margin-top: 22px;
+}
+.guide-section { padding: 56px 0 8px; scroll-margin-top: 70px; }
+.guide-section > .wrap > h2 { display: flex; align-items: center; gap: 14px; }
+.guide-section > .wrap > h2 .num {
+  flex: none; width: 44px; height: 44px; border-radius: 12px; background: var(--green); color: #000;
+  display: grid; place-items: center; font-size: 1.2rem;
+}
+.guide-steps { display: grid; gap: 18px; margin-top: 26px; }
+@media (min-width: 900px) { .guide-steps { grid-template-columns: repeat(2, 1fr); } }
+.step {
+  display: grid; grid-template-columns: 120px 1fr; gap: 18px; align-items: start;
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px;
+}
+@media (min-width: 560px) { .step { grid-template-columns: 160px 1fr; gap: 22px; } }
+.step img { width: 100%; border-radius: 16px; border: 1px solid var(--line); background: #0d110b; }
+.step h3 { margin: 4px 0 8px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.step .step-num { color: var(--green); font-weight: 800; font-size: 0.82rem; letter-spacing: 0.08em; text-transform: uppercase; }
+.step p { color: var(--muted); margin: 0 0 10px; font-size: 0.97rem; }
+.step p b { color: var(--white); }
+.step .tip { font-size: 0.9rem; border-left: 3px solid var(--green); padding-left: 10px; color: #d7ddd4; }
+.back-top { display: inline-block; margin-top: 18px; font-size: 0.9rem; }
+.step--text { grid-template-columns: 1fr; }
+.guide-note b { color: var(--white); }

@@ -1,0 +1,2 @@
+# Downloads like the guide screenshots zip should never be part of the website
+*.zip
